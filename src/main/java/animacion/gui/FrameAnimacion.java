@@ -53,7 +53,7 @@ public class FrameAnimacion extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
-    private void archivo_comenzar() {
+    protected void archivo_comenzar() {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {

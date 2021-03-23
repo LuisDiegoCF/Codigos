@@ -1,24 +1,28 @@
-package animacion.modelo;
+package practico1.modelo;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-public class Figura {
+public class Linea {
     private int alto;
-    private int ancho;
 
     private int x;
     private int y;
 
+    private final static Logger logger = LogManager.getLogger();
+
     private PropertyChangeSupport observed;
 
-    public Figura() {
-        x = 0;
-        y = 0;
-        alto = 50;
-        ancho = 2;
+    public Linea() {
+        x = 4;
+        y = 400;
+        alto = ((int) (Math.random() * 400) + 1);
 
         observed = new PropertyChangeSupport(this);
+        logger.debug("Se a creado el objeto Linea, Altura: " + alto);
     }
 
     public void addObserver(PropertyChangeListener observador){
@@ -30,15 +34,10 @@ public class Figura {
     }
 
     public void setAlto(int alto) {
+        int oldValue = this.alto;
         this.alto = alto;
-    }
-
-    public int getAncho() {
-        return ancho;
-    }
-
-    public void setAncho(int ancho) {
-        this.ancho = ancho;
+        int newValue = this.alto;
+        observed.firePropertyChange("CAMBIO", oldValue, newValue);
     }
 
     public int getX() {
