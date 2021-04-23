@@ -1,0 +1,1118 @@
+2021-04-22 14:27:42 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:30:01 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:30:09 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:31:13 INFO  Esperando conexion en el puerto 1234
+2021-04-22 14:31:21 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 14:31:21 INFO  Se acaban de conectar a este servidor
+2021-04-22 14:31:21 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 14:36:19 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 14:36:37 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:36:43 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:36:54 INFO  Esperando conexion en el puerto 1234
+2021-04-22 14:37:02 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 14:37:02 INFO  Se acaban de conectar a este servidor
+2021-04-22 14:37:02 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 14:41:27 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 14:41:35 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:41:39 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:41:43 INFO  Esperando conexion en el puerto 1234
+2021-04-22 14:41:49 INFO  Se acaban de conectar a este servidor
+2021-04-22 14:41:49 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 14:41:49 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 14:42:09 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 14:46:46 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:46:50 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 14:46:56 INFO  Esperando conexion en el puerto 1234
+2021-04-22 14:47:10 ERROR Slamente numeros en el nro de puerto: 127.0.0.1:1234
+java.lang.NumberFormatException: For input string: "127.0.0.1:1234"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:652) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:770) ~[?:?]
+	at practico3.gui.ImagenNetFrame.esperarConexion(ImagenNetFrame.java:154) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame$1.actionPerformed(ImagenNetFrame.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:369) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1012) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1056) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6614) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3342) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6379) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2263) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4990) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2321) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4919) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4548) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4489) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2307) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2769) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:743) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2021-04-22 14:47:21 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 14:47:21 INFO  Se acaban de conectar a este servidor
+2021-04-22 14:47:21 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 14:47:29 INFO  Esperando conexion en el puerto 1234
+2021-04-22 14:47:36 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 14:47:36 INFO  Se acaban de conectar a este servidor
+2021-04-22 14:47:36 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 14:47:50 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 14:47:50 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 16:03:39 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 16:03:44 DEBUG Cargando Imagen1, Dimensiones: 600 x 400
+2021-04-22 16:03:48 INFO  Esperando conexion en el puerto 1234
+2021-04-22 16:03:54 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 16:03:54 INFO  Se acaban de conectar a este servidor
+2021-04-22 16:03:54 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 16:04:02 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:68) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 21:12:02 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:12:19 ERROR Error no se pudo crear la conexion
+java.net.ConnectException: Connection refused: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:574) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:563) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[?:?]
+	at java.net.Socket.connect(Socket.java:648) ~[?:?]
+	at java.net.Socket.connect(Socket.java:597) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:520) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:294) ~[?:?]
+	at practico3.net.Enviar.<init>(Enviar.java:26) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame.conectar(ImagenNetFrame.java:129) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame$2.actionPerformed(ImagenNetFrame.java:58) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:369) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1012) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1056) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6614) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3342) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6379) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2263) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4990) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2321) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4919) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4548) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4489) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2307) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2769) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:743) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2021-04-22 21:25:01 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:25:34 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:25:37 ERROR Slamente numeros en el nro de puerto: null
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:614) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:770) ~[?:?]
+	at practico3.gui.ImagenNetFrame.leerPuerto(ImagenNetFrame.java:205) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame.esperarConexion(ImagenNetFrame.java:107) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame$1.actionPerformed(ImagenNetFrame.java:47) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:369) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1012) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1056) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6614) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3342) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6379) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2263) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4990) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2321) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4919) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4548) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4489) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2307) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2769) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:743) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2021-04-22 21:28:54 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:29:06 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:29:10 INFO  Esperando conexion puerto: 1234
+2021-04-22 21:30:31 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:30:34 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 21:30:37 INFO  Esperando conexion puerto: 1234
+2021-04-22 21:30:46 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 21:30:46 INFO  Conexion a servidor exitosa
+2021-04-22 21:30:46 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 21:30:48 INFO  Coordenadas en: X = 296 Y = 130
+2021-04-22 21:30:51 INFO  Coordenadas en: X = 380 Y = 226
+2021-04-22 21:30:51 INFO  Coordenadas en: X = 388 Y = 322
+2021-04-22 21:30:52 INFO  Coordenadas en: X = 394 Y = 350
+2021-04-22 21:30:52 INFO  Coordenadas en: X = 396 Y = 266
+2021-04-22 21:30:52 INFO  Coordenadas en: X = 400 Y = 174
+2021-04-22 21:30:52 INFO  Coordenadas en: X = 398 Y = 138
+2021-04-22 21:30:53 INFO  Coordenadas en: X = 400 Y = 100
+2021-04-22 21:30:53 INFO  Coordenadas en: X = 406 Y = 68
+2021-04-22 21:30:53 INFO  Coordenadas en: X = 408 Y = 41
+2021-04-22 21:30:53 INFO  Coordenadas en: X = 408 Y = 7
+2021-04-22 21:30:54 INFO  Coordenadas en: X = 415 Y = 124
+2021-04-22 21:30:54 INFO  Coordenadas en: X = 416 Y = 135
+2021-04-22 21:30:54 INFO  Coordenadas en: X = 420 Y = 197
+2021-04-22 21:30:54 INFO  Coordenadas en: X = 422 Y = 230
+2021-04-22 21:30:54 INFO  Coordenadas en: X = 422 Y = 280
+2021-04-22 21:30:55 INFO  Coordenadas en: X = 427 Y = 350
+2021-04-22 21:30:55 INFO  Coordenadas en: X = 433 Y = 374
+2021-04-22 21:30:55 INFO  Coordenadas en: X = 438 Y = 384
+2021-04-22 21:30:55 INFO  Coordenadas en: X = 445 Y = 322
+2021-04-22 21:30:55 INFO  Coordenadas en: X = 445 Y = 318
+2021-04-22 21:30:56 INFO  Coordenadas en: X = 444 Y = 294
+2021-04-22 21:30:56 INFO  Coordenadas en: X = 445 Y = 274
+2021-04-22 21:30:56 INFO  Coordenadas en: X = 449 Y = 255
+2021-04-22 21:30:56 INFO  Coordenadas en: X = 450 Y = 246
+2021-04-22 21:30:56 INFO  Coordenadas en: X = 452 Y = 238
+2021-04-22 21:30:57 INFO  Coordenadas en: X = 454 Y = 226
+2021-04-22 21:30:57 INFO  Coordenadas en: X = 460 Y = 216
+2021-04-22 21:30:57 INFO  Coordenadas en: X = 468 Y = 187
+2021-04-22 21:30:57 INFO  Coordenadas en: X = 474 Y = 169
+2021-04-22 21:30:57 INFO  Coordenadas en: X = 482 Y = 147
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 490 Y = 120
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 496 Y = 89
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 498 Y = 88
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 498 Y = 88
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 502 Y = 100
+2021-04-22 21:30:58 INFO  Coordenadas en: X = 506 Y = 106
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 511 Y = 124
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 504 Y = 271
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 504 Y = 274
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 510 Y = 264
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 510 Y = 260
+2021-04-22 21:30:59 INFO  Coordenadas en: X = 510 Y = 282
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 510 Y = 284
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 514 Y = 286
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 525 Y = 276
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 540 Y = 272
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 548 Y = 277
+2021-04-22 21:31:00 INFO  Coordenadas en: X = 560 Y = 288
+2021-04-22 21:31:01 INFO  Coordenadas en: X = 547 Y = 275
+2021-04-22 21:31:01 INFO  Coordenadas en: X = 516 Y = 279
+2021-04-22 21:31:01 INFO  Coordenadas en: X = 448 Y = 271
+2021-04-22 21:31:01 INFO  Coordenadas en: X = 405 Y = 273
+2021-04-22 21:31:01 INFO  Coordenadas en: X = 348 Y = 290
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 305 Y = 252
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 304 Y = 254
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 416 Y = 292
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 496 Y = 265
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 522 Y = 264
+2021-04-22 21:31:02 INFO  Coordenadas en: X = 542 Y = 279
+2021-04-22 21:31:03 INFO  Coordenadas en: X = 557 Y = 254
+2021-04-22 21:31:03 INFO  Coordenadas en: X = 566 Y = 278
+2021-04-22 21:31:03 INFO  Coordenadas en: X = 572 Y = 298
+2021-04-22 21:31:03 INFO  Coordenadas en: X = 562 Y = 257
+2021-04-22 21:31:03 INFO  Coordenadas en: X = 565 Y = 268
+2021-04-22 21:31:04 INFO  Coordenadas en: X = 566 Y = 270
+2021-04-22 21:31:04 INFO  Coordenadas en: X = 567 Y = 274
+2021-04-22 21:31:04 INFO  Coordenadas en: X = 568 Y = 274
+2021-04-22 21:31:04 INFO  Coordenadas en: X = 570 Y = 281
+2021-04-22 21:31:04 INFO  Coordenadas en: X = 570 Y = 284
+2021-04-22 21:31:05 INFO  Coordenadas en: X = 570 Y = 286
+2021-04-22 21:31:05 INFO  Coordenadas en: X = 571 Y = 291
+2021-04-22 21:31:05 INFO  Coordenadas en: X = 571 Y = 304
+2021-04-22 21:31:05 INFO  Coordenadas en: X = 572 Y = 318
+2021-04-22 21:31:05 INFO  Coordenadas en: X = 576 Y = 336
+2021-04-22 21:31:06 INFO  Coordenadas en: X = 575 Y = 306
+2021-04-22 21:31:06 INFO  Coordenadas en: X = 574 Y = 297
+2021-04-22 21:31:06 INFO  Coordenadas en: X = 571 Y = 274
+2021-04-22 21:31:06 INFO  Coordenadas en: X = 570 Y = 272
+2021-04-22 21:31:06 INFO  Coordenadas en: X = 570 Y = 265
+2021-04-22 21:31:07 INFO  Coordenadas en: X = 570 Y = 272
+2021-04-22 21:31:07 INFO  Coordenadas en: X = 571 Y = 278
+2021-04-22 21:31:07 INFO  Coordenadas en: X = 560 Y = 271
+2021-04-22 21:31:07 INFO  Coordenadas en: X = 260 Y = 230
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 104 Y = 218
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 66 Y = 242
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 62 Y = 261
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 66 Y = 277
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 77 Y = 240
+2021-04-22 21:31:08 INFO  Coordenadas en: X = 77 Y = 217
+2021-04-22 21:31:09 INFO  Coordenadas en: X = 78 Y = 243
+2021-04-22 21:31:09 INFO  Coordenadas en: X = 77 Y = 262
+2021-04-22 21:31:09 INFO  Coordenadas en: X = 58 Y = 230
+2021-04-22 21:31:09 INFO  Coordenadas en: X = 48 Y = 238
+2021-04-22 21:31:09 INFO  Coordenadas en: X = 39 Y = 252
+2021-04-22 21:31:10 INFO  Coordenadas en: X = 34 Y = 262
+2021-04-22 21:31:10 INFO  Coordenadas en: X = 32 Y = 269
+2021-04-22 21:31:10 INFO  Coordenadas en: X = 30 Y = 282
+2021-04-22 21:31:10 INFO  Coordenadas en: X = 28 Y = 290
+2021-04-22 21:31:11 INFO  Coordenadas en: X = 22 Y = 265
+2021-04-22 21:31:11 INFO  Coordenadas en: X = 22 Y = 265
+2021-04-22 21:31:11 INFO  Coordenadas en: X = 22 Y = 263
+2021-04-22 21:31:11 INFO  Coordenadas en: X = 22 Y = 258
+2021-04-22 21:31:11 INFO  Coordenadas en: X = 22 Y = 256
+2021-04-22 21:31:12 INFO  Coordenadas en: X = 22 Y = 255
+2021-04-22 21:31:12 INFO  Coordenadas en: X = 24 Y = 264
+2021-04-22 21:31:12 INFO  Coordenadas en: X = 24 Y = 264
+2021-04-22 21:31:12 INFO  Coordenadas en: X = 24 Y = 264
+2021-04-22 21:31:12 INFO  Coordenadas en: X = 24 Y = 268
+2021-04-22 21:31:13 INFO  Coordenadas en: X = 24 Y = 269
+2021-04-22 21:31:13 INFO  Coordenadas en: X = 24 Y = 276
+2021-04-22 21:31:13 INFO  Coordenadas en: X = 26 Y = 290
+2021-04-22 21:31:14 INFO  Coordenadas en: X = 285 Y = 88
+2021-04-22 21:31:14 INFO  Coordenadas en: X = 321 Y = 91
+2021-04-22 21:31:14 INFO  Coordenadas en: X = 433 Y = 100
+2021-04-22 21:31:14 INFO  Coordenadas en: X = 492 Y = 97
+2021-04-22 21:31:14 INFO  Coordenadas en: X = 514 Y = 85
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 534 Y = 80
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 547 Y = 87
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 553 Y = 103
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 555 Y = 106
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 558 Y = 86
+2021-04-22 21:31:15 INFO  Coordenadas en: X = 558 Y = 86
+2021-04-22 21:31:16 INFO  Coordenadas en: X = 560 Y = 88
+2021-04-22 21:31:16 INFO  Coordenadas en: X = 564 Y = 88
+2021-04-22 21:31:16 INFO  Coordenadas en: X = 573 Y = 87
+2021-04-22 21:31:16 INFO  Coordenadas en: X = 581 Y = 91
+2021-04-22 21:31:16 INFO  Coordenadas en: X = 487 Y = 90
+2021-04-22 21:31:17 INFO  Coordenadas en: X = 352 Y = 98
+2021-04-22 21:31:17 INFO  Coordenadas en: X = 298 Y = 92
+2021-04-22 21:31:17 INFO  Coordenadas en: X = 208 Y = 66
+2021-04-22 21:31:17 INFO  Coordenadas en: X = 168 Y = 78
+2021-04-22 21:31:24 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:64) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 22:46:44 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:46:52 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:46:55 INFO  Esperando conexion puerto: 1234
+2021-04-22 22:47:03 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 22:47:03 INFO  Conexion a servidor exitosa
+2021-04-22 22:47:03 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 22:47:03 INFO  Coordenadas en: X = 523 Y = 190
+2021-04-22 22:47:04 INFO  Coordenadas en: X = 471 Y = 231
+2021-04-22 22:47:04 INFO  Coordenadas en: X = 366 Y = 234
+2021-04-22 22:47:05 INFO  Coordenadas en: X = 287 Y = 141
+2021-04-22 22:47:05 INFO  Coordenadas en: X = 386 Y = 108
+2021-04-22 22:47:06 INFO  Coordenadas en: X = 414 Y = 205
+2021-04-22 22:47:06 INFO  Coordenadas en: X = 309 Y = 250
+2021-04-22 22:47:06 INFO  Coordenadas en: X = 226 Y = 248
+2021-04-22 22:47:06 INFO  Coordenadas en: X = 187 Y = 218
+2021-04-22 22:47:06 INFO  Coordenadas en: X = 133 Y = 227
+2021-04-22 22:47:07 INFO  Coordenadas en: X = 132 Y = 102
+2021-04-22 22:47:07 INFO  Coordenadas en: X = 92 Y = 162
+2021-04-22 22:47:07 INFO  Coordenadas en: X = 88 Y = 244
+2021-04-22 22:47:22 INFO  Coordenadas en: X = 190 Y = 34
+2021-04-22 22:47:22 INFO  Coordenadas en: X = 55 Y = 12
+2021-04-22 22:47:22 INFO  Coordenadas en: X = 45 Y = 49
+2021-04-22 22:47:23 INFO  Coordenadas en: X = 37 Y = 152
+2021-04-22 22:47:23 INFO  Coordenadas en: X = 44 Y = 214
+2021-04-22 22:47:23 INFO  Coordenadas en: X = 47 Y = 269
+2021-04-22 22:47:23 INFO  Coordenadas en: X = 30 Y = 324
+2021-04-22 22:47:24 INFO  Coordenadas en: X = 25 Y = 325
+2021-04-22 22:47:24 INFO  Coordenadas en: X = 15 Y = 320
+2021-04-22 22:48:02 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:63) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 22:49:58 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:50:16 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:50:26 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:50:30 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 22:50:34 INFO  Esperando conexion puerto: 1234
+2021-04-22 22:50:40 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 22:50:40 INFO  Conexion a servidor exitosa
+2021-04-22 22:50:40 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 22:50:41 INFO  Coordenadas en: X = 452 Y = 140
+2021-04-22 22:50:43 INFO  Coordenadas en: X = 86 Y = 55
+2021-04-22 22:50:44 INFO  Coordenadas en: X = 81 Y = 236
+2021-04-22 22:50:46 INFO  Coordenadas en: X = 349 Y = 358
+2021-04-22 22:50:46 INFO  Coordenadas en: X = 506 Y = 322
+2021-04-22 22:50:50 INFO  Coordenadas en: X = 568 Y = 270
+2021-04-22 22:50:50 INFO  Coordenadas en: X = 539 Y = 274
+2021-04-22 22:50:51 INFO  Coordenadas en: X = 551 Y = 184
+2021-04-22 22:50:52 INFO  Coordenadas en: X = 412 Y = 307
+2021-04-22 22:50:52 INFO  Coordenadas en: X = 264 Y = 280
+2021-04-22 22:50:53 INFO  Coordenadas en: X = 326 Y = 233
+2021-04-22 22:50:53 INFO  Coordenadas en: X = 282 Y = 166
+2021-04-22 22:50:53 INFO  Coordenadas en: X = 213 Y = 222
+2021-04-22 22:50:54 INFO  Coordenadas en: X = 204 Y = 288
+2021-04-22 22:50:54 INFO  Coordenadas en: X = 306 Y = 324
+2021-04-22 22:50:54 INFO  Coordenadas en: X = 202 Y = 348
+2021-04-22 22:50:55 INFO  Coordenadas en: X = 146 Y = 346
+2021-04-22 22:50:55 INFO  Coordenadas en: X = 92 Y = 280
+2021-04-22 22:50:55 INFO  Coordenadas en: X = 164 Y = 234
+2021-04-22 22:50:56 INFO  Coordenadas en: X = 139 Y = 187
+2021-04-22 22:50:56 INFO  Coordenadas en: X = 95 Y = 172
+2021-04-22 22:50:56 INFO  Coordenadas en: X = 50 Y = 194
+2021-04-22 22:50:56 INFO  Coordenadas en: X = 22 Y = 254
+2021-04-22 22:50:57 INFO  Coordenadas en: X = 38 Y = 290
+2021-04-22 22:50:57 INFO  Coordenadas en: X = 114 Y = 326
+2021-04-22 22:50:57 INFO  Coordenadas en: X = 216 Y = 332
+2021-04-22 22:50:57 INFO  Coordenadas en: X = 266 Y = 273
+2021-04-22 22:50:57 INFO  Coordenadas en: X = 247 Y = 156
+2021-04-22 22:50:58 INFO  Coordenadas en: X = 155 Y = 134
+2021-04-22 22:50:58 INFO  Coordenadas en: X = 124 Y = 93
+2021-04-22 22:50:58 INFO  Coordenadas en: X = 306 Y = 96
+2021-04-22 22:50:58 INFO  Coordenadas en: X = 395 Y = 129
+2021-04-22 22:50:58 INFO  Coordenadas en: X = 405 Y = 174
+2021-04-22 22:50:59 INFO  Coordenadas en: X = 343 Y = 204
+2021-04-22 22:50:59 INFO  Coordenadas en: X = 320 Y = 191
+2021-04-22 22:51:01 INFO  Coordenadas en: X = 388 Y = 146
+2021-04-22 22:51:01 INFO  Coordenadas en: X = 542 Y = 125
+2021-04-22 22:51:02 INFO  Coordenadas en: X = 513 Y = 59
+2021-04-22 22:51:02 INFO  Coordenadas en: X = 528 Y = 36
+2021-04-22 22:51:02 INFO  Coordenadas en: X = 556 Y = 23
+2021-04-22 22:51:02 INFO  Coordenadas en: X = 558 Y = 22
+2021-04-22 22:51:02 INFO  Coordenadas en: X = 585 Y = 31
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 565 Y = 74
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 476 Y = 90
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 356 Y = 40
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 308 Y = 34
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 262 Y = 52
+2021-04-22 22:51:03 INFO  Coordenadas en: X = 218 Y = 99
+2021-04-22 22:51:04 INFO  Coordenadas en: X = 305 Y = 153
+2021-04-22 22:51:04 INFO  Coordenadas en: X = 224 Y = 66
+2021-04-22 22:51:04 INFO  Coordenadas en: X = 368 Y = 68
+2021-04-22 22:51:04 INFO  Coordenadas en: X = 285 Y = 58
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 248 Y = 65
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 160 Y = 34
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 138 Y = 58
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 155 Y = 131
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 336 Y = 150
+2021-04-22 22:51:05 INFO  Coordenadas en: X = 414 Y = 153
+2021-04-22 22:51:10 INFO  Esperando conexion puerto: 1234
+2021-04-22 22:51:18 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 22:51:19 INFO  Conexion a servidor exitosa
+2021-04-22 22:51:19 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 22:51:19 INFO  Coordenadas en: X = 65 Y = 94
+2021-04-22 22:51:21 INFO  Coordenadas en: X = 153 Y = 362
+2021-04-22 22:51:22 INFO  Coordenadas en: X = 370 Y = 362
+2021-04-22 22:51:22 INFO  Coordenadas en: X = 446 Y = 354
+2021-04-22 22:51:22 INFO  Coordenadas en: X = 526 Y = 357
+2021-04-22 22:51:23 INFO  Coordenadas en: X = 557 Y = 356
+2021-04-22 22:51:23 INFO  Coordenadas en: X = 553 Y = 308
+2021-04-22 22:51:23 INFO  Coordenadas en: X = 536 Y = 259
+2021-04-22 22:51:24 INFO  Coordenadas en: X = 534 Y = 222
+2021-04-22 22:51:24 INFO  Coordenadas en: X = 537 Y = 188
+2021-04-22 22:51:24 INFO  Coordenadas en: X = 539 Y = 152
+2021-04-22 22:51:24 INFO  Coordenadas en: X = 542 Y = 88
+2021-04-22 22:51:24 INFO  Coordenadas en: X = 529 Y = 54
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 516 Y = 47
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 504 Y = 50
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 480 Y = 56
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 344 Y = 79
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 328 Y = 83
+2021-04-22 22:51:25 INFO  Coordenadas en: X = 180 Y = 82
+2021-04-22 22:51:26 INFO  Coordenadas en: X = 129 Y = 82
+2021-04-22 22:51:26 INFO  Coordenadas en: X = 64 Y = 56
+2021-04-22 22:51:26 INFO  Coordenadas en: X = 40 Y = 44
+2021-04-22 22:51:26 INFO  Coordenadas en: X = 30 Y = 29
+2021-04-22 22:51:26 INFO  Coordenadas en: X = 40 Y = 21
+2021-04-22 22:51:27 INFO  Coordenadas en: X = 154 Y = 28
+2021-04-22 22:51:27 INFO  Coordenadas en: X = 192 Y = 20
+2021-04-22 22:51:27 INFO  Coordenadas en: X = 271 Y = 11
+2021-04-22 22:51:27 INFO  Coordenadas en: X = 343 Y = 14
+2021-04-22 22:51:27 INFO  Coordenadas en: X = 342 Y = 16
+2021-04-22 22:51:28 INFO  Coordenadas en: X = 241 Y = 20
+2021-04-22 22:51:28 INFO  Coordenadas en: X = 216 Y = 17
+2021-04-22 22:51:28 INFO  Coordenadas en: X = 207 Y = 44
+2021-04-22 22:51:28 INFO  Coordenadas en: X = 211 Y = 106
+2021-04-22 22:51:28 INFO  Coordenadas en: X = 166 Y = 148
+2021-04-22 22:51:38 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:63) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 22:51:38 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:63) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 22:59:58 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:00:15 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:00:19 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:00:27 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:00:27 INFO  Conexion a servidor exitosa
+2021-04-22 23:00:27 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:00:27 INFO  Coordenadas en: X = 70 Y = 131
+2021-04-22 23:00:28 INFO  Coordenadas en: X = 552 Y = 162
+2021-04-22 23:00:29 INFO  Coordenadas en: X = 560 Y = 62
+2021-04-22 23:00:29 INFO  Coordenadas en: X = 500 Y = 109
+2021-04-22 23:00:30 INFO  Coordenadas en: X = 452 Y = 229
+2021-04-22 23:00:30 INFO  Coordenadas en: X = 428 Y = 272
+2021-04-22 23:00:31 INFO  Coordenadas en: X = 353 Y = 254
+2021-04-22 23:00:31 INFO  Coordenadas en: X = 355 Y = 229
+2021-04-22 23:00:53 INFO  Coordenadas en: X = 298 Y = 82
+2021-04-22 23:00:54 INFO  Coordenadas en: X = 376 Y = 160
+2021-04-22 23:00:54 INFO  Coordenadas en: X = 373 Y = 207
+2021-04-22 23:00:54 INFO  Coordenadas en: X = 402 Y = 300
+2021-04-22 23:00:55 INFO  Coordenadas en: X = 202 Y = 174
+2021-04-22 23:00:55 INFO  Coordenadas en: X = 494 Y = 195
+2021-04-22 23:00:55 INFO  Coordenadas en: X = 208 Y = 85
+2021-04-22 23:00:56 INFO  Coordenadas en: X = 474 Y = 190
+2021-04-22 23:00:56 INFO  Coordenadas en: X = 138 Y = 109
+2021-04-22 23:00:56 INFO  Coordenadas en: X = 493 Y = 243
+2021-04-22 23:00:57 INFO  Coordenadas en: X = 133 Y = 199
+2021-04-22 23:00:57 INFO  Coordenadas en: X = 64 Y = 367
+2021-04-22 23:00:57 INFO  Coordenadas en: X = 491 Y = 310
+2021-04-22 23:00:58 INFO  Coordenadas en: X = 324 Y = 262
+2021-04-22 23:00:58 INFO  Coordenadas en: X = 394 Y = 149
+2021-04-22 23:00:58 INFO  Coordenadas en: X = 302 Y = 142
+2021-04-22 23:01:02 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:63) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:02:16 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:02:27 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:02:32 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:02:43 ERROR Ingrese solo numeros: 127.0.0.1:1234
+java.lang.NumberFormatException: For input string: "127.0.0.1:1234"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:652) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:770) ~[?:?]
+	at practico3.gui.ImagenNetFrame.leerPuerto(ImagenNetFrame.java:207) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame.esperarConexion(ImagenNetFrame.java:108) ~[classes/:?]
+	at practico3.gui.ImagenNetFrame$1.actionPerformed(ImagenNetFrame.java:47) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:369) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1012) ~[?:?]
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1056) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6614) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3342) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6379) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2263) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4990) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2321) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4919) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4548) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4489) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2307) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2769) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4822) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:743) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2021-04-22 23:02:57 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:02:57 INFO  Conexion a servidor exitosa
+2021-04-22 23:02:57 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:02:59 INFO  Coordenadas en: X = 434 Y = 126
+2021-04-22 23:03:00 INFO  Coordenadas en: X = 150 Y = 142
+2021-04-22 23:03:01 INFO  Coordenadas en: X = 476 Y = 33
+2021-04-22 23:03:02 INFO  Coordenadas en: X = 445 Y = 213
+2021-04-22 23:03:03 INFO  Coordenadas en: X = 127 Y = 237
+2021-04-22 23:03:04 INFO  Coordenadas en: X = 424 Y = 87
+2021-04-22 23:03:04 INFO  Coordenadas en: X = 516 Y = 54
+2021-04-22 23:03:05 INFO  Coordenadas en: X = 110 Y = 314
+2021-04-22 23:03:06 INFO  Coordenadas en: X = 218 Y = 224
+2021-04-22 23:03:07 INFO  Coordenadas en: X = 186 Y = 77
+2021-04-22 23:03:08 INFO  Coordenadas en: X = 240 Y = 316
+2021-04-22 23:03:09 INFO  Coordenadas en: X = 239 Y = 76
+2021-04-22 23:03:10 INFO  Coordenadas en: X = 203 Y = 43
+2021-04-22 23:03:11 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:63) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:19:47 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:19:52 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:19:57 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:20:03 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:20:03 INFO  Conexion a servidor exitosa
+2021-04-22 23:20:03 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:20:03 INFO  Coordenadas en: X = 498 Y = 112
+2021-04-22 23:20:04 INFO  Coordenadas en: X = 98 Y = 155
+2021-04-22 23:20:04 INFO  Coordenadas en: X = 192 Y = 174
+2021-04-22 23:20:05 INFO  Coordenadas en: X = 192 Y = 276
+2021-04-22 23:20:05 INFO  Coordenadas en: X = 151 Y = 126
+2021-04-22 23:20:06 INFO  Coordenadas en: X = 376 Y = 29
+2021-04-22 23:20:06 INFO  Coordenadas en: X = 377 Y = 152
+2021-04-22 23:20:06 INFO  Coordenadas en: X = 290 Y = 197
+2021-04-22 23:20:07 INFO  Coordenadas en: X = 226 Y = 212
+2021-04-22 23:20:07 INFO  Coordenadas en: X = 252 Y = 267
+2021-04-22 23:20:07 INFO  Coordenadas en: X = 448 Y = 296
+2021-04-22 23:20:07 INFO  Coordenadas en: X = 451 Y = 238
+2021-04-22 23:20:08 INFO  Coordenadas en: X = 100 Y = 164
+2021-04-22 23:20:08 INFO  Coordenadas en: X = 146 Y = 128
+2021-04-22 23:20:08 INFO  Coordenadas en: X = 273 Y = 141
+2021-04-22 23:20:08 INFO  Coordenadas en: X = 312 Y = 224
+2021-04-22 23:20:08 INFO  Coordenadas en: X = 151 Y = 280
+2021-04-22 23:20:09 INFO  Coordenadas en: X = 133 Y = 209
+2021-04-22 23:20:09 INFO  Coordenadas en: X = 138 Y = 114
+2021-04-22 23:20:10 INFO  Coordenadas en: X = 188 Y = 97
+2021-04-22 23:20:10 INFO  Coordenadas en: X = 354 Y = 62
+2021-04-22 23:20:10 INFO  Coordenadas en: X = 192 Y = 34
+2021-04-22 23:20:11 INFO  Coordenadas en: X = 159 Y = 17
+2021-04-22 23:20:11 INFO  Coordenadas en: X = 115 Y = 369
+2021-04-22 23:20:12 INFO  Coordenadas en: X = 90 Y = 329
+2021-04-22 23:20:12 INFO  Coordenadas en: X = 85 Y = 312
+2021-04-22 23:20:12 INFO  Coordenadas en: X = 84 Y = 302
+2021-04-22 23:20:13 INFO  Coordenadas en: X = 82 Y = 265
+2021-04-22 23:20:13 INFO  Coordenadas en: X = 82 Y = 264
+2021-04-22 23:20:13 INFO  Coordenadas en: X = 60 Y = 172
+2021-04-22 23:20:14 INFO  Coordenadas en: X = 52 Y = 159
+2021-04-22 23:20:14 INFO  Coordenadas en: X = 44 Y = 95
+2021-04-22 23:20:14 INFO  Coordenadas en: X = 38 Y = 84
+2021-04-22 23:20:14 INFO  Coordenadas en: X = 38 Y = 83
+2021-04-22 23:20:15 INFO  Coordenadas en: X = 31 Y = 91
+2021-04-22 23:20:15 INFO  Coordenadas en: X = 29 Y = 93
+2021-04-22 23:20:15 INFO  Coordenadas en: X = 28 Y = 94
+2021-04-22 23:20:15 INFO  Coordenadas en: X = 2 Y = 103
+2021-04-22 23:20:15 INFO  Coordenadas en: X = 29 Y = 370
+2021-04-22 23:20:16 INFO  Coordenadas en: X = 28 Y = 395
+2021-04-22 23:20:16 INFO  Coordenadas en: X = 27 Y = 364
+2021-04-22 23:20:16 INFO  Coordenadas en: X = 549 Y = 342
+2021-04-22 23:20:20 INFO  Coordenadas en: X = 278 Y = 220
+2021-04-22 23:20:20 INFO  Coordenadas en: X = 235 Y = 124
+2021-04-22 23:20:20 INFO  Coordenadas en: X = 146 Y = 87
+2021-04-22 23:20:20 INFO  Coordenadas en: X = 81 Y = 110
+2021-04-22 23:20:21 INFO  Coordenadas en: X = 67 Y = 175
+2021-04-22 23:20:21 INFO  Coordenadas en: X = 384 Y = 186
+2021-04-22 23:20:29 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:22:23 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:22:27 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:22:31 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:22:38 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:22:38 INFO  Conexion a servidor exitosa
+2021-04-22 23:22:38 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:22:39 INFO  Coordenadas en: X = 444 Y = 40
+2021-04-22 23:22:40 INFO  Coordenadas en: X = 248 Y = 91
+2021-04-22 23:22:41 INFO  Coordenadas en: X = 420 Y = 226
+2021-04-22 23:22:41 INFO  Coordenadas en: X = 60 Y = 93
+2021-04-22 23:22:42 INFO  Coordenadas en: X = 64 Y = 63
+2021-04-22 23:22:43 INFO  Coordenadas en: X = 492 Y = 172
+2021-04-22 23:22:44 INFO  Coordenadas en: X = 533 Y = 288
+2021-04-22 23:22:44 INFO  Coordenadas en: X = 249 Y = 110
+2021-04-22 23:22:45 INFO  Coordenadas en: X = 142 Y = 236
+2021-04-22 23:22:46 INFO  Coordenadas en: X = 124 Y = 319
+2021-04-22 23:22:46 INFO  Coordenadas en: X = 112 Y = 367
+2021-04-22 23:22:47 INFO  Coordenadas en: X = 498 Y = 174
+2021-04-22 23:22:48 INFO  Coordenadas en: X = 465 Y = 226
+2021-04-22 23:22:48 INFO  Coordenadas en: X = 458 Y = 272
+2021-04-22 23:22:49 INFO  Coordenadas en: X = 162 Y = 155
+2021-04-22 23:22:50 INFO  Coordenadas en: X = 462 Y = 20
+2021-04-22 23:22:50 INFO  Coordenadas en: X = 127 Y = 144
+2021-04-22 23:22:51 INFO  Coordenadas en: X = 545 Y = 244
+2021-04-22 23:22:52 INFO  Coordenadas en: X = 116 Y = 203
+2021-04-22 23:22:52 INFO  Coordenadas en: X = 540 Y = 304
+2021-04-22 23:23:00 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:23:22 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:23:27 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:23:30 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:23:39 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:23:39 INFO  Conexion a servidor exitosa
+2021-04-22 23:23:39 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:23:40 INFO  Coordenadas en: X = 311 Y = 16
+2021-04-22 23:23:41 INFO  Coordenadas en: X = 60 Y = 70
+2021-04-22 23:23:41 INFO  Coordenadas en: X = 521 Y = 147
+2021-04-22 23:23:42 INFO  Coordenadas en: X = 100 Y = 258
+2021-04-22 23:23:42 INFO  Coordenadas en: X = 498 Y = 196
+2021-04-22 23:23:43 INFO  Coordenadas en: X = 56 Y = 108
+2021-04-22 23:23:43 INFO  Coordenadas en: X = 496 Y = 60
+2021-04-22 23:23:44 INFO  Coordenadas en: X = 506 Y = 176
+2021-04-22 23:23:45 INFO  Coordenadas en: X = 108 Y = 137
+2021-04-22 23:23:45 INFO  Coordenadas en: X = 78 Y = 297
+2021-04-22 23:23:46 INFO  Coordenadas en: X = 494 Y = 221
+2021-04-22 23:23:47 INFO  Coordenadas en: X = 123 Y = 338
+2021-04-22 23:23:47 INFO  Coordenadas en: X = 487 Y = 204
+2021-04-22 23:23:48 INFO  Coordenadas en: X = 24 Y = 108
+2021-04-22 23:23:48 INFO  Coordenadas en: X = 505 Y = 30
+2021-04-22 23:23:49 INFO  Coordenadas en: X = 528 Y = 201
+2021-04-22 23:23:50 INFO  Coordenadas en: X = 121 Y = 290
+2021-04-22 23:23:50 INFO  Coordenadas en: X = 138 Y = 360
+2021-04-22 23:23:51 INFO  Coordenadas en: X = 127 Y = 396
+2021-04-22 23:23:51 INFO  Coordenadas en: X = 464 Y = 174
+2021-04-22 23:23:52 INFO  Coordenadas en: X = 510 Y = 189
+2021-04-22 23:23:53 INFO  Coordenadas en: X = 512 Y = 330
+2021-04-22 23:23:54 INFO  Coordenadas en: X = 56 Y = 288
+2021-04-22 23:23:55 INFO  Coordenadas en: X = 68 Y = 215
+2021-04-22 23:23:55 INFO  Coordenadas en: X = 540 Y = 317
+2021-04-22 23:24:15 INFO  Coordenadas en: X = 340 Y = 207
+2021-04-22 23:24:19 INFO  Coordenadas en: X = 92 Y = 112
+2021-04-22 23:24:45 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:24:50 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:24:57 INFO  Coordenadas en: X = 494 Y = 29
+2021-04-22 23:25:00 INFO  Coordenadas en: X = 458 Y = 156
+2021-04-22 23:25:02 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:26:28 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:26:32 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:26:35 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:26:46 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:26:46 INFO  Conexion a servidor exitosa
+2021-04-22 23:26:46 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:26:53 INFO  Coordenadas en: X = 72 Y = 166
+2021-04-22 23:26:53 INFO  Coordenadas en: X = 520 Y = 99
+2021-04-22 23:26:54 INFO  Coordenadas en: X = 471 Y = 179
+2021-04-22 23:26:54 INFO  Coordenadas en: X = 487 Y = 242
+2021-04-22 23:26:54 INFO  Coordenadas en: X = 189 Y = 210
+2021-04-22 23:26:55 INFO  Coordenadas en: X = 173 Y = 95
+2021-04-22 23:26:55 INFO  Coordenadas en: X = 158 Y = 50
+2021-04-22 23:26:55 INFO  Coordenadas en: X = 168 Y = 172
+2021-04-22 23:26:55 INFO  Coordenadas en: X = 164 Y = 208
+2021-04-22 23:26:55 INFO  Coordenadas en: X = 158 Y = 284
+2021-04-22 23:26:56 INFO  Coordenadas en: X = 162 Y = 314
+2021-04-22 23:26:56 INFO  Coordenadas en: X = 171 Y = 358
+2021-04-22 23:26:56 INFO  Coordenadas en: X = 171 Y = 366
+2021-04-22 23:26:56 INFO  Coordenadas en: X = 414 Y = 146
+2021-04-22 23:27:44 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:29:20 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:29:24 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:29:29 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:29:32 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:29:38 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:29:38 INFO  Conexion a servidor exitosa
+2021-04-22 23:29:38 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:29:38 INFO  Coordenadas en: X = 397 Y = 105
+2021-04-22 23:29:39 INFO  Coordenadas en: X = 446 Y = 249
+2021-04-22 23:29:39 INFO  Coordenadas en: X = 99 Y = 190
+2021-04-22 23:29:40 INFO  Coordenadas en: X = 110 Y = 85
+2021-04-22 23:29:40 INFO  Coordenadas en: X = 106 Y = 33
+2021-04-22 23:29:40 INFO  Coordenadas en: X = 487 Y = 256
+2021-04-22 23:29:41 INFO  Coordenadas en: X = 466 Y = 352
+2021-04-22 23:29:41 INFO  Coordenadas en: X = 485 Y = 280
+2021-04-22 23:29:42 INFO  Coordenadas en: X = 97 Y = 191
+2021-04-22 23:29:42 INFO  Coordenadas en: X = 98 Y = 206
+2021-04-22 23:29:43 INFO  Coordenadas en: X = 48 Y = 322
+2021-04-22 23:29:44 INFO  Coordenadas en: X = 74 Y = 68
+2021-04-22 23:29:45 INFO  Coordenadas en: X = 544 Y = 161
+2021-04-22 23:29:45 INFO  Coordenadas en: X = 554 Y = 123
+2021-04-22 23:29:46 INFO  Coordenadas en: X = 532 Y = 266
+2021-04-22 23:29:46 INFO  Coordenadas en: X = 562 Y = 224
+2021-04-22 23:29:47 INFO  Coordenadas en: X = 25 Y = 319
+2021-04-22 23:29:48 INFO  Coordenadas en: X = 40 Y = 265
+2021-04-22 23:29:54 INFO  Coordenadas en: X = 128 Y = 64
+2021-04-22 23:29:58 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:30:46 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:30:49 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:30:54 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:31:01 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:31:01 INFO  Conexion a servidor exitosa
+2021-04-22 23:31:01 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:31:01 INFO  Coordenadas en: X = 498 Y = 54
+2021-04-22 23:31:02 INFO  Coordenadas en: X = 53 Y = 156
+2021-04-22 23:31:02 INFO  Coordenadas en: X = 488 Y = 258
+2021-04-22 23:31:03 INFO  Coordenadas en: X = 61 Y = 175
+2021-04-22 23:31:04 INFO  Coordenadas en: X = 518 Y = 60
+2021-04-22 23:31:04 INFO  Coordenadas en: X = 540 Y = 38
+2021-04-22 23:31:04 INFO  Coordenadas en: X = 68 Y = 115
+2021-04-22 23:31:05 INFO  Coordenadas en: X = 503 Y = 256
+2021-04-22 23:31:06 INFO  Coordenadas en: X = 74 Y = 370
+2021-04-22 23:31:06 INFO  Coordenadas en: X = 511 Y = 283
+2021-04-22 23:31:07 INFO  Coordenadas en: X = 522 Y = 312
+2021-04-22 23:31:07 INFO  Coordenadas en: X = 63 Y = 178
+2021-04-22 23:31:08 INFO  Coordenadas en: X = 46 Y = 66
+2021-04-22 23:31:09 INFO  Coordenadas en: X = 41 Y = 19
+2021-04-22 23:31:09 INFO  Coordenadas en: X = 496 Y = 232
+2021-04-22 23:31:10 INFO  Coordenadas en: X = 507 Y = 308
+2021-04-22 23:31:11 INFO  Coordenadas en: X = 440 Y = 138
+2021-04-22 23:31:12 INFO  Coordenadas en: X = 29 Y = 96
+2021-04-22 23:31:22 INFO  Coordenadas en: X = 508 Y = 372
+2021-04-22 23:31:24 INFO  Coordenadas en: X = 13 Y = 252
+2021-04-22 23:31:28 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:40:59 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:41:04 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:41:07 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:41:13 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:41:13 INFO  Conexion a servidor exitosa
+2021-04-22 23:41:13 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:41:14 INFO  Coordenadas en: X = 340 Y = 37
+2021-04-22 23:41:14 INFO  Coordenadas en: X = 395 Y = 149
+2021-04-22 23:41:15 INFO  Coordenadas en: X = 85 Y = 126
+2021-04-22 23:41:15 INFO  Coordenadas en: X = 90 Y = 53
+2021-04-22 23:41:16 INFO  Coordenadas en: X = 94 Y = 16
+2021-04-22 23:41:16 INFO  Coordenadas en: X = 124 Y = 265
+2021-04-22 23:41:17 INFO  Coordenadas en: X = 118 Y = 360
+2021-04-22 23:41:17 INFO  Coordenadas en: X = 442 Y = 236
+2021-04-22 23:41:17 INFO  Coordenadas en: X = 437 Y = 153
+2021-04-22 23:41:18 INFO  Coordenadas en: X = 454 Y = 91
+2021-04-22 23:41:18 INFO  Coordenadas en: X = 469 Y = 204
+2021-04-22 23:41:19 INFO  Coordenadas en: X = 471 Y = 294
+2021-04-22 23:41:19 INFO  Coordenadas en: X = 474 Y = 356
+2021-04-22 23:41:20 INFO  Coordenadas en: X = 487 Y = 392
+2021-04-22 23:41:21 INFO  Coordenadas en: X = 496 Y = 344
+2021-04-22 23:41:28 INFO  Coordenadas en: X = 426 Y = 138
+2021-04-22 23:41:29 INFO  Coordenadas en: X = 422 Y = 108
+2021-04-22 23:41:30 INFO  Coordenadas en: X = 432 Y = 96
+2021-04-22 23:41:30 INFO  Coordenadas en: X = 462 Y = 42
+2021-04-22 23:41:30 INFO  Coordenadas en: X = 469 Y = 164
+2021-04-22 23:41:30 INFO  Coordenadas en: X = 468 Y = 195
+2021-04-22 23:41:31 INFO  Coordenadas en: X = 454 Y = 256
+2021-04-22 23:41:31 INFO  Coordenadas en: X = 428 Y = 326
+2021-04-22 23:41:31 INFO  Coordenadas en: X = 428 Y = 338
+2021-04-22 23:41:31 INFO  Coordenadas en: X = 430 Y = 360
+2021-04-22 23:41:32 INFO  Coordenadas en: X = 446 Y = 274
+2021-04-22 23:41:32 INFO  Coordenadas en: X = 448 Y = 141
+2021-04-22 23:41:32 INFO  Coordenadas en: X = 434 Y = 54
+2021-04-22 23:41:32 INFO  Coordenadas en: X = 427 Y = 21
+2021-04-22 23:41:33 INFO  Coordenadas en: X = 451 Y = 197
+2021-04-22 23:41:33 INFO  Coordenadas en: X = 452 Y = 236
+2021-04-22 23:41:33 INFO  Coordenadas en: X = 441 Y = 366
+2021-04-22 23:41:33 INFO  Coordenadas en: X = 446 Y = 74
+2021-04-22 23:41:34 INFO  Coordenadas en: X = 465 Y = 29
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 70 Y = 38
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 80 Y = 73
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 84 Y = 166
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 67 Y = 270
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 64 Y = 307
+2021-04-22 23:41:36 INFO  Coordenadas en: X = 64 Y = 318
+2021-04-22 23:41:39 INFO  Coordenadas en: X = 66 Y = 363
+2021-04-22 23:41:39 INFO  Coordenadas en: X = 84 Y = 116
+2021-04-22 23:41:40 INFO  Coordenadas en: X = 91 Y = 225
+2021-04-22 23:41:40 INFO  Coordenadas en: X = 36 Y = 304
+2021-04-22 23:41:40 INFO  Coordenadas en: X = 491 Y = 286
+2021-04-22 23:41:40 INFO  Coordenadas en: X = 496 Y = 103
+2021-04-22 23:41:41 INFO  Coordenadas en: X = 496 Y = 72
+2021-04-22 23:41:41 INFO  Coordenadas en: X = 107 Y = 53
+2021-04-22 23:41:41 INFO  Coordenadas en: X = 138 Y = 189
+2021-04-22 23:41:41 INFO  Coordenadas en: X = 134 Y = 226
+2021-04-22 23:41:41 INFO  Coordenadas en: X = 574 Y = 176
+2021-04-22 23:41:42 INFO  Coordenadas en: X = 506 Y = 165
+2021-04-22 23:41:42 INFO  Coordenadas en: X = 482 Y = 224
+2021-04-22 23:41:42 INFO  Coordenadas en: X = 472 Y = 298
+2021-04-22 23:41:42 INFO  Coordenadas en: X = 496 Y = 98
+2021-04-22 23:41:43 INFO  Coordenadas en: X = 136 Y = 42
+2021-04-22 23:41:43 INFO  Coordenadas en: X = 174 Y = 222
+2021-04-22 23:41:43 INFO  Coordenadas en: X = 168 Y = 306
+2021-04-22 23:41:52 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-04-22 23:44:10 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:44:42 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:45:11 DEBUG Cargando Imagen, Dimensiones: 600 x 400
+2021-04-22 23:45:14 INFO  Esperando conexion puerto: 1234
+2021-04-22 23:45:25 INFO  Se conectó a 127.0.0.1:1234
+2021-04-22 23:45:25 INFO  Conexion a servidor exitosa
+2021-04-22 23:45:25 INFO  Se creo el objeto para enviar a partir del socket
+2021-04-22 23:45:25 INFO  Coordenadas en: X = 442 Y = 110
+2021-04-22 23:45:25 INFO  Coordenadas en: X = 442 Y = 110
+2021-04-22 23:45:26 INFO  Coordenadas en: X = 434 Y = 64
+2021-04-22 23:45:31 INFO  Coordenadas en: X = 539 Y = 174
+2021-04-22 23:45:31 INFO  Coordenadas en: X = 532 Y = 204
+2021-04-22 23:45:31 INFO  Coordenadas en: X = 520 Y = 254
+2021-04-22 23:45:31 INFO  Coordenadas en: X = 516 Y = 283
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 511 Y = 320
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 513 Y = 356
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 516 Y = 364
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 512 Y = 260
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 510 Y = 196
+2021-04-22 23:45:32 INFO  Coordenadas en: X = 520 Y = 149
+2021-04-22 23:45:33 INFO  Coordenadas en: X = 521 Y = 124
+2021-04-22 23:45:35 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico3.net.Recibir.run(Recibir.java:65) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
