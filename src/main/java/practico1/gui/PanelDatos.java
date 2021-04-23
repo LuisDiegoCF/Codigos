@@ -30,7 +30,7 @@ public class PanelDatos extends JPanel implements PropertyChangeListener {
         posicionLabel = new JLabel();
         this.setLayout(new BorderLayout());
         this.add(posicionLabel, BorderLayout.CENTER);
-        logger.debug("Se ha añadido el PanelDatos: Mayor, Menor");
+        logger.info("Se ha añadido el PanelDatos: Mayor, Menor");
     }
 
     @Override

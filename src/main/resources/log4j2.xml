@@ -6,7 +6,7 @@
         </Console>
         <RollingFile
                 name="rollingFile"
-                fileName="Logs/application.log"
+                fileName="Logs/Informacion.log"
                 filePattern="Logs/application.%d{dd-MMM}.log.gz"
                 ignoreExceptions="false">
             <PatternLayout>

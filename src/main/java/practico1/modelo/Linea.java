@@ -11,18 +11,19 @@ public class Linea {
 
     private int x;
     private int y;
+    private int num;
 
     private final static Logger logger = LogManager.getLogger();
 
     private PropertyChangeSupport observed;
 
     public Linea() {
-        x = 4;
+        x = 0;
         y = 400;
         alto = ((int) (Math.random() * 400) + 1);
 
         observed = new PropertyChangeSupport(this);
-        logger.debug("Se a creado el objeto Linea, Altura: " + alto);
+        logger.info(num + ": Se a creado el objeto Linea, Altura: " + alto + " Posicion X: " + x);
     }
 
     public void addObserver(PropertyChangeListener observador){
@@ -57,5 +58,13 @@ public class Linea {
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    public int getNum() {
+        return num;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
     }
 }

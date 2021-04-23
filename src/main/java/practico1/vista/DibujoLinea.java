@@ -10,8 +10,8 @@ public class DibujoLinea implements IDibujo {
     private ArrayList<Linea> lineas;
 
 
-    public DibujoLinea(ArrayList<Linea> linea) {
-        lineas = linea;
+    public DibujoLinea(ArrayList<Linea> lineas) {
+        this.lineas = lineas;
     }
 
     public void dibujar(Graphics g) {

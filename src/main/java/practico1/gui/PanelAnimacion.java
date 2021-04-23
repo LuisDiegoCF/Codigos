@@ -18,12 +18,12 @@ public class PanelAnimacion extends JPanel implements PropertyChangeListener {
     public PanelAnimacion(IDibujo dibujo){
         this.dibujo = dibujo;
 
-        logger.debug("Se ha añadido el PanelAnimacion");
+        logger.info("Se ha añadido el PanelAnimacion");
     }
 
     @Override
     public Dimension getPreferredSize() {
-        return new Dimension(600, 400);
+        return new Dimension(601, 416);
     }
 
     @Override
