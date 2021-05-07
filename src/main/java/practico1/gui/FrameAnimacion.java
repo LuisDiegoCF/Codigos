@@ -128,7 +128,7 @@ public class FrameAnimacion extends JFrame {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 300; i++) {
+                for (int i = 0; i < 3; i++) {
                     Linea linea = new Linea();
                     linea.addObserver(panelAnimacion);
                     linea.setX((i + 1) * 2);

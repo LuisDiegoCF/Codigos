@@ -67,9 +67,7 @@ public class PanelImagen extends JPanel implements PropertyChangeListener, Mouse
         if (enviar != null) {
             enviar.setPosX(x);
             enviar.setPosY(y);
-            //logger.info("Coordenadas: " + x +" "+ y);
             imagen.cambioOk();
-            //ganador();
         }
     }
 
