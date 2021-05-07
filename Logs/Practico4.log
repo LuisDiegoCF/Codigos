@@ -1,0 +1,5 @@
+2021-05-06 23:18:34 DEBUG Se añadio a : asd Edad: 28 Altura: 180 Genero: masculino
+2021-05-06 23:19:44 DEBUG Se añadio a : Nombre: asd Edad: 18 Altura: 250 Genero: masculino
+2021-05-06 23:19:53 DEBUG Se añadio a : Nombre: asd Edad: 80 Altura: 150 Genero: femenino
+2021-05-06 23:23:16 INFO  La edad debe ser menor a 100 años.
+La altura debe ser menor a 250 cm.
