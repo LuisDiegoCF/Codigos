@@ -30,7 +30,7 @@ public class ImagenFrame extends JFrame {
         JMenuBar bar = new JMenuBar();
         JMenu menu = new JMenu("Menu");
 
-        JMenuItem item = new JMenuItem("Nueva Personas");
+        JMenuItem item = new JMenuItem("Nueva Persona");
         JMenuItem item2 = new JMenuItem("Eliminar todo");
         JMenuItem item3 = new JMenuItem("Salir");
 
@@ -75,7 +75,7 @@ public class ImagenFrame extends JFrame {
 
     private void salir() {
         System.exit(EXIT_ON_CLOSE);
-        logger.info("Adios");
+        logger.info("Salir");
     }
 
     private void vaciarLista() {
@@ -92,7 +92,6 @@ public class ImagenFrame extends JFrame {
         JTextField edadField = new JTextField();
         JTextField alturaField = new JTextField();
         JTextField generoField = new JTextField();
-        JButton boton = new JButton("");
 
         Object[] message = {
                 "Nombre: ", nombreField,
@@ -120,7 +119,7 @@ public class ImagenFrame extends JFrame {
                 personas.insertar(p);
                 p.addObserver(panelDibujoListaPersonas);
                 p.cambioOk();
-                logger.debug("Se añadio a : " + "Nombre: " + nombreField.getText() + " Edad: " + edad +" Altura: "+ altura+" Genero: " + generoField.getText());
+                logger.debug("Se añadio a : " + "Nombre: " + nombreField.getText() + " Edad: " + edad + " Altura: " + altura + " Genero: " + generoField.getText());
             }
         }
     }
@@ -140,13 +139,13 @@ public class ImagenFrame extends JFrame {
             validado = -1;
         }
 
-        if(!genero.toLowerCase().matches("masculino") && !genero.toLowerCase().matches("femenino")){
+        if (!genero.toLowerCase().matches("masculino") && !genero.toLowerCase().matches("femenino")) {
             mensaje += "El campo de texto genero solo adminite Masculino o Femenino\n";
             logger.info("El campo de texto genero solo adminite Masculino o Femenino");
             validado = -1;
         }
 
-        if(validado == -1){
+        if (validado == -1) {
             JOptionPane.showMessageDialog(panelDibujoListaPersonas, mensaje);
         }
         return validado;

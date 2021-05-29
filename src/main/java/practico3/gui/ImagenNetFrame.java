@@ -111,6 +111,7 @@ public class ImagenNetFrame extends JFrame {
             return;
         }
 
+        Recibir recibir;
         try {
             recibir = new Recibir(puerto, modelo);
             panelImagen.setRecibo(recibir);
@@ -159,12 +160,12 @@ public class ImagenNetFrame extends JFrame {
 
         try {
             conexion = new Enviar(ip, puerto);
-            panelImagen.setEnviar(conexion);
+            //panelImagen.setEnviar(conexion);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "No se pudo conectar al servidor " + ip + ":" + puerto);
             return;
         }
-
+        Recibir recibir;
         try {
             recibir = new Recibir(conexion.getSck(), modelo);
             panelImagen.setRecibo(recibir);
@@ -174,12 +175,100 @@ public class ImagenNetFrame extends JFrame {
             return;
         }
 
+        try {
+            conexion = new Enviar(recibir.getClt());
+            panelImagen.setEnviar(conexion);
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Hubo un error al crear el objeto para enviar, trate de nuevo");
+            return;
+        }
+
         Thread recibiendo = new Thread(recibir);
         recibiendo.start();
         añadirObservador();
     }
 
+    /*public void conectar() {
+    String ip = JOptionPane.showInputDialog("Coloque la ip");
+    String puerto = JOptionPane.showInputDialog(null, "Coloque el puerto");
+    int leerPuerto = leerPuerto(puerto);
+    if (leerPuerto == 0) {
+        JOptionPane.showMessageDialog(this, "El puerto debe ser un entero mas de 1024");
+        return;
+    }
 
+    String direccion = leerIP(ip);
+    if (direccion.equals("ERROR")) {
+        JOptionPane.showMessageDialog(this, "La ip deben ser 4 numeros enteros menores a 255");
+        return;
+    }
+    try {
+        conexion = new Enviar(ip, leerPuerto);
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this,
+                "No se pudo conectar al servidor con la ip " + ip + " con el puerto " + leerPuerto);
+        return;
+    }
+
+    Recibir recibir;
+    try {
+        recibir = new Recibir(conexion.getSck(), modelo);
+    } catch (IOException e) {
+        JOptionPane.showMessageDialog(this, "Hubo un error al crear el objeto para recibir, trate de nuevo");
+        return;
+    }
+
+    try {
+        conexion = new Enviar(recibir.getClt());
+        panelImagen.setEnviar(conexion);
+    } catch (IOException e) {
+        JOptionPane.showMessageDialog(this, "Hubo un error al crear el objeto para enviar, trate de nuevo");
+        return;
+    }
+
+    Thread recibiendo = new Thread(recibir);
+    recibiendo.start();
+    añadirObservador();
+    logger.info("Aqui se establece la conexion");
+}
+
+    private void esperarConexion() {
+        String puerto = JOptionPane.showInputDialog("Ingrese el puerto");
+        if (leerPuerto(puerto) != 0) {
+            int port = leerPuerto(puerto);
+            try {
+                if (port <= 1024 || port > 65000) {
+                    throw new Exception("Debe colocar un entero");
+                }
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(this,
+                        "Debe colocar un número entero positivo mayor a 1024, intente de nuevo por favor");
+                return;
+            }
+
+            Recibir recibir;
+            try {
+                recibir = new Recibir(port, modelo);
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(this,
+                        "Hubo un error al crear/esperar la conexión, trate con otro puerto");
+                return;
+            }
+
+            try {
+                conexion = new Enviar(recibir.getClt());
+                panelImagen.setEnviar(conexion);
+            } catch (IOException e) {
+                JOptionPane.showMessageDialog(this, "Hubo un error al crear el objeto para enviar, trate de nuevo");
+                return;
+            }
+
+            Thread recibiendo = new Thread(recibir);
+            recibiendo.start();
+            añadirObservador();
+            logger.info("Aqui el servidor espera que haya una conexion por parte del cliente");
+        }
+    }*/
     private String leerIP(String ip) {
         String[] numeros = ip.split("\\.");
         StringBuilder respuesta = new StringBuilder();

@@ -8,6 +8,7 @@ public class Pixel {
     private int green;
     private int blue;
     private int color;
+    private WinImagen win;
 
     public Pixel(int pixel) {
         this.color = pixel;

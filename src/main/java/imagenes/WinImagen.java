@@ -19,15 +19,19 @@ public class WinImagen extends JFrame {
 
     private void init() {
 
-        modelo = new Imagen(500, 350);
+        modelo = new Imagen(1000, 350);
 
         PanelImagen panel = new PanelImagen(modelo);
 
         modelo.addObserver(panel);
 
         this.getContentPane().setLayout(new BorderLayout());
-        this.getContentPane().add(panel, BorderLayout.CENTER);
 
+        JScrollPane scroller = new JScrollPane(panel);
+        //JEditorPane
+        //java jscrollpane auto scroll down
+        //java jscrollpane automatically scroll all the way down
+        this.getContentPane().add(scroller, BorderLayout.CENTER);
         JMenuBar menuBar = new JMenuBar();
 
         JMenu mnuImagen = new JMenu("Imagen");
